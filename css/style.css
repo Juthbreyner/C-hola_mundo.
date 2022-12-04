@@ -4,8 +4,9 @@ h1{
                     font-family: 'Cinzel';
 
 }
-h2{
+.fuente-nnombre{
      text-align: center;
+     font-family: 'Courier New', Courier, monospace;
 }
 /* cinzel-700 - latin */
 @font-face {

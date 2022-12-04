@@ -5,7 +5,7 @@
 }
 h1{
                     text-align: center;
-                    padding: 12%;
+                    justify-content:baseline;
                     font-family: 'WaltographRegular';
                     font-weight: normal;
                     font-style: normal;
