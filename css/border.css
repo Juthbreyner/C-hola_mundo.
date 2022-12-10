@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    color: rgb(red, green, blue);
+}
+.box-1 {
+    border: 8px double rgb(31, 30, 32);
+    display: flex;
+}
+.parr-style, .parr-padding {
+    font-size: 1.5em;
+    margin: 5px;
+    text-align: justify;
+    border: 5px solid greenyellow    ;
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+}
+
+.parr-padding {
+    padding: 70px 70px;
+    border-radius: 20px;
+}
+.box-2 {
+    width: 400px;
+    height: 350px;
+    border-radius: 500px;
+    background-color: rgba(26, 112, 23, 0.308);
+    margin-left: 400px;
+    display: flex;
+}
+
+#a{
+    border: 5px dashed rgb(19, 211, 12);
+}
+
+#b{
+    border: 5px dotted rgb(212, 175, 9);
+}
+#c{
+    border: 5px ridge #aabbcc;
+}
+#d{
+    border: 5px inset rgb(13, 13, 117);
+}
