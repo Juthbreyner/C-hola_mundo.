@@ -1,0 +1,58 @@
+.caja {
+    width: 150px;
+    height: 150px;
+    background-color: goldenrod;
+    margin-top: 100px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.caja1{
+    border-radius: 10px;
+    box-shadow: 40px 20px 20px rgb(146, 221, 26);
+    background: conic-gradient(at 0% 30%, red 10%, yellow 30%, #1e90ff 50%);
+    cursor: pointer;
+}
+.caja1:hover{
+    transform: scale(1.1);
+    background: conic-gradient(from 45deg, red, orange 50%, yellow 85%, green);
+    transition: 1.5s;
+    box-shadow: 10px 10px 5px rgb(146, 221, 26);
+}
+.caja2{
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px inset rgb(146, 221, 26);
+    background-color: rgb(235, 231, 12);
+    cursor: pointer;
+}
+.caja2:hover{
+    transform: scale(1.1);
+    background-color: rgb(128, 209, 21);
+    transition: 1.5s;
+    box-shadow: 10px 10px 5px rgb(8, 8, 8);
+    
+}
+.caja3{
+    border-radius: 10px;
+    box-shadow: 10px 8px 6px 5px rgb(228, 170, 11);
+    background-color: rgb(11, 12, 11);
+    transition: 1.5s;
+    cursor: pointer;
+}
+.caja3:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+    background-color: rgb(rgb(204, 181, 181), rgb(50, 92, 209), rgb(223, 20, 20));
+    box-shadow: 5px,4px,3px,2.5px rgba(65, 189, 16, 0.637);
+}
+.caja label{
+    text-align: center;
+    background-color: azure;
+    margin-top: 5px;
+    margin-left: 35px;
+    
+}
+

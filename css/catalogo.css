@@ -13,11 +13,11 @@
 }
 
 .caja img{
-             width: 220px;
-             height: 280px; 
+             width: 400px;
+             height: 220px; 
              border-radius: 20px; 
              border: 3px solid black    ; 
-             
+
 }
 .caja {
                     margin: 15px;
@@ -27,21 +27,33 @@
                     font-size: 15px;
                     font-weight: bold;
 }
-.caja1{
-                    flex-grow: 1;
+
+.caja1:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+   
 }
-.caja2{
-                    flex-grow: 1;
+
+.caja2:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+   
 }
-.caja3{
-                    flex-grow: 1;
+
+.caja3:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+   
 }
-.caja4{
-                    flex-grow: 1;
+
+.caja4:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+   
 }
-.caja5{
-                    flex-grow: 1;
-}
-.caja6{
-                    flex-grow: 1;
+
+.caja5:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+   
 }

@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: yellow;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+}
+.container-3{
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+}
+.caja{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+.caja1{
+    height: 200px;
+    width: 200px;
+    margin-left: 350px;
+    margin-top: 350px;
+    border-radius: 10px;
+    box-shadow: 40px 20px 20px rgb(146, 221, 26);
+    background: conic-gradient(at 0% 30%, red 10%, yellow 30%, #1e90ff 50%);
+    cursor: pointer;
+}
+.caja1:hover{
+    transform: scale(1.5);
+    background: conic-gradient(from 45deg, red, orange 50%, yellow 85%, green);
+    transition: 6s;
+    box-shadow: 20px 10px 8px rgb(146, 221, 26);
+}
+.caja2{
+    height: 200px;
+    width: 200px;
+    margin-left: 350px;
+    margin-top: 350px;
+    border-radius: 10px;
+    box-shadow: 40px 20px 20px inset rgb(146, 221, 26);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.caja3{
+    height: 200px;
+    width: 200px;
+    margin-left: 950px;
+    margin-top: 350px;
+    border-radius: 10px;
+    box-shadow: 25px 8px 6px 15px rgb(146, 221, 26);
+    background-color: rgb(11, 12, 11);
+    transition: 1.5s;
+    cursor: pointer;
+}
+.caja3:hover {
+    transform: scale(1.1);
+    background-color: navy;
+}
+.caja4{
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 0px greenyellow, -5px -10px greenyellow;
+    background-color: rgb(10, 10, 10);
+    transition: 1.5s;
+    cursor: pointer;
+}
+.caja4:hover{
+    background-color: red;
+    transform: scale (1.1);
+}
+.caja p{
+    text-align: center;
+    background-color: ghostwhite;
+}
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+}
