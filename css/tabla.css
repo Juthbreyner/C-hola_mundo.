@@ -1,0 +1,44 @@
+h2{
+    text-align: center;
+}
+
+.tablaG{
+    border-collapse: collapse;
+    width: 90em;
+}
+td{
+    text-align: center;
+    padding: 10px;
+    border: 2px dashed black;
+}
+th{
+    background: linear-gradient(to right, rgb(11, 164, 175), rgba(21, 127, 197, 0.651));
+    color: black;
+    border: 3px solid black;
+    padding: 5px;
+}
+.caja1{
+    background-color: rgba(197, 197, 188, 0.815);
+    border-top:0;
+}
+
+.caja2{
+    background-color: rgba(197, 197, 188, 0.815);
+    border-top:0;
+}
+.caja3{
+    background-color: rgba(197, 197, 188, 0.815);
+    border-top:0;
+}
+
+.valor1 p{
+ background-color: rgb(34, 207, 238);
+}
+.valor2 p{
+    background-color: black;
+    color: aliceblue;
+   }
+.caja:hover{
+    transition: 1.2s;
+    transform: scale(1.1);
+}
