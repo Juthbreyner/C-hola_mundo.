@@ -1,0 +1,75 @@
+body{
+    
+                    background-image: url(https://th.bing.com/th/id/R.cc371854bba1e7377b2f13fb34d3438f?rik=QedtzmcsFyCVEg&pid=ImgRaw&r=0);
+                }
+                h1{
+                    text-align: center;
+                    color: rgb(65, 80, 94);
+                }
+                .form-box{
+                    justify-content: center;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                }
+                form{
+                    border: 2px solid black;
+                    width: 500px;
+                    opacity: 0.9;
+                    background-color: rgb(236, 232, 226);
+                    box-shadow:   inset 0 -3em 3em rgba(0,0,0,0.1),
+                             0 0  0 2px rgb(255,255,255),
+                             0.3em 0.3em 1em rgba(0,0,0,0.3);;
+                }
+                legend{
+                    background-color: rgba(175, 118, 12, 0.884);
+                    color: white;
+                    height: 50px;
+                    padding-top:8px ;
+                }
+                .legend-text{
+                    margin-top:20px ;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 2em;
+                    font-weight: 500;
+                }
+                .cajas{
+                    margin-top: 5px;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    border-radius: 10px;
+                }
+                input[type="submit"]{
+                    width: 200px;
+                    margin-top: 20px;
+                    margin-bottom: 15px;
+                    background-color: rgba(175, 118, 12, 0.884);
+                    color:azure;
+                    font-size: 1.2em;
+                    border-radius: 10px;
+                    box-shadow: 10px,5px;
+                }
+                input[type="submit"]:hover{
+                    transform: scale(1.2);
+                    transition: 0.5s;
+                    box-shadow: 10px,5px,8px;
+                    background-color: rgba(228, 170, 62, 0.884);
+                }
+                
+                .label-u{
+                    color: black;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+                textarea{
+                    resize: none;
+                }
+                .texto-genero{
+                    color: rgb(22, 22, 21);
+                }
+                .select{
+                    background-color: aliceblue;
+                }
+                .select{
+                    transform: scale(1.2);
+                    transition: 1.2s;
+                }

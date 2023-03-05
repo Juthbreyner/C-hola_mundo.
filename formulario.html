@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Registro para Compra de Autos</h1>
+    <div class="form-box">
+    <form>
+        <legend><span class="legend-text">Datos Personales</span></legend><br><br><br>
+        <select class="documento" name="tipoDocumento">
+            <option value="tarjeta-identidad">Tarjeta de Indentidad</option> 
+            <option value="cedula">Cedula</option>
+            <option value="pasaporte">Pasaporte</option>
+            <option value="registro-civil">Registro Civil</option>
+        </select> <br>
+        <input class="cajas" type="text" name="NumeroDocumento" placeholder="Ingrese el Documento" ><br><br>
+        <input class="cajas"type="text" name="PrimerNombre" placeholder="Ingrese el Primer Nombre"><br><br>
+        <input class="cajas"type="text" name="SegundoNombre" placeholder="Ingrese el Segundo Nombre"><br><br>
+        <input class="cajas"type="text" name="PrimerApellido" placeholder="Ingrese Primer Apellido"><br><br>
+        <input class="cajas"type="text" name="SegundoApellido" placeholder="Ingrese Segundo Apellido"><br><br>
+        <label class="label-u">¿Desea hacer una consuta especial?</label>
+        <textarea name="tex" id="" cols="40" rows="6"></textarea><br>
+        <label>Ingrese el Genero</label> <br>
+        <input type="radio" name="genero" value="masculino"><span class="texto-genero">Masculino</span> <br>
+        <input type="radio" name="genero" value="femenino"><span class="texto-genero">Femenino</span> <br>
+        <input type="radio" name="genero" value="otro"><span class="texto-genero">Otro</span> <br>
+        <input type="text"> <br> <br>
+        <label >Seleccione la empresa a la cual quiere adquirir y/o ver vehiculos</label> <br><br>
+        <input type="checkbox" name="ford" id="">Ford
+        <input type="checkbox" name="chevrolet" id="">Chevrolet 
+        <input type="checkbox" name="BMW" id="">BMW
+        <input type="checkbox" name="mazda" id="">Mazda
+        <input type="checkbox" name="toyota" id="">Toyota 
+        <input type="checkbox" name="honda" id="">Honda<br> 
+     
+        <input type="submit" value="Enviar">
+
+    </form>
+</div>
+</body>
+</html>
