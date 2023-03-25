@@ -21,3 +21,205 @@ h1{
                          url('../fonts/cinzel-v19-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
                          url('../fonts/cinzel-v19-latin-700.svg#Cinzel') format('svg'); /* Legacy iOS */
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(253, 253, 253);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+
+}
+nav div {
+    display: flex;
+    margin: auto 0;
+}
+
+nav ul{
+    list-style: none;
+  overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #0c0c0c;
+    display: flex;
+    padding-top: 6px;
+    justify-content: space-between;
+}
+
+.cay{
+    color: #269241;
+    margin: auto;
+    flex: 1;
+    font-size: 55px;
+    margin-left: 35px;
+}
+
+.nav-menu {
+    display: flex;
+    float: left;
+}
+
+.nav-menu li {
+    padding: 18px;
+    list-style: none;
+    width: 150px;
+    transition: .2s;
+    cursor: pointer;
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+    overflow:hidden;
+    padding-top: 5px;
+  }
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.nav-menu li:hover {
+    background-color: #269241;
+}
+.menu-vetical {
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    width: 150px;
+    background-color: #269241;
+    list-style: none;
+    display: none;
+    
+}
+.menu-vetical li:hover {
+    background-color: #090a0a;
+    width: 150px;
+}
+
+.menu-vetical  li {
+    margin: 0;
+    padding: 5px 0;
+    width: 150px;
+}
+
+.nav-menu li:hover .menu-vetical {
+    display: block;
+}
+
+
+.menu-vetical li a {
+    color: #fff;
+    padding: 25px 20px;
+}
+.menu-vertical {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    width: 150px;
+    background-color: #269241;
+    list-style: none;
+    display: none;
+}
+
+
+.menu-vertical li:hover {
+    background-color: #000000;
+    width: 150px;
+}
+
+.menu-vertical  li {
+    margin: 0;
+    padding: 5px 0;
+    width: 150px;
+}
+
+.nav-menu li:hover .menu-vertical {
+    display: block;
+}
+.menu-vertical li a {
+    color: #fff;
+    padding: 25px 20px;
+}
+
+
+li:hover {
+    background-color: #070707;
+    width: 150px;
+}
+
+.menu-vetical1  li {
+    margin: 0;
+    padding: 5px 0;
+    width: 150px;
+    min-width: 100px;
+}
+
+.nav-menu .java:hover .menu-vetical1 {
+    display: block;
+}
+
+ li a {
+    color: #fff7f7;
+    padding: 25px 20px;
+}
+.mia{
+     margin: 10% auto;
+     display: block;
+     box-shadow: 0 0 10px;
+     border-radius: 5%;
+  }
+  .mia:hover{
+      background-color: #fffdfd;
+      box-shadow: 0 0 10px;
+      transform: scale(1.2);
+      transition: 0.5s;
+  
+  }
+  .principal {
+     padding: 80px;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 20px;
+ 
+ }
+ 
+ 
+ .left {
+     width: 95%;
+     height: 80vh;
+     color: rgb(0, 0, 0);
+ 
+ }
+ 
+ .present{
+     font-family: 'Rubik Iso', cursive;
+     font-family: 'Tilt Warp', cursive;
+     font-size: 30px;
+ }
+ h3{
+     position: relative;
+     color: rgb(91, 184, 15);
+     font-family: 'Bebas Neue', cursive;
+     font-size: 55px;
+ }
+ h3:hover{
+     transition: s;
+     color: rgb(247, 240, 240);
+     box-shadow: 0 0 10px greenyellow;
+ }
+ p{
+     font-size: 22px;
+     margin-left: 25px;
+     margin-bottom: 20px;
+     margin-right: 25px;
+ }
