@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.elmenu{
+    background-color: brown;
+}
+.menu{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    
+    height: 60px;
+    text-align: right;
+    list-style: none;
+    box-shadow: 0 0 10px black;
+}
+.img{
+    width: 500px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.item-menu{
+    color: rgb(15, 15, 19);
+    font-size: 1.3em;
+    left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    cursor: pointer;
+}
+.item-menu:hover{
+    transform: scale(1.1);
+    border-bottom: 1px solid orangered;
+    color: orange;
+}
+.box-1{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin-left: 65px;
+}
+/*Esto es para la medida de un celular*/
+@media only screen and (max-width:769px){
+    .box-1{
+        background-color: orangered;
+        width: 500px;
+        height: 401px;
+    }
+    
+}
+@media only screen and (max-width: 800px){
+    .elmenu{
+        background-color: blue  ;
+
+    }
+    .item-menu{
+        color:rgb(218, 203, 203);
+        display:block;
+        padding-top: 20px;
+        margin-top: 30px;
+        border-bottom: 2px solid white;
+    }
+    .item-menu:hover{
+        border-bottom: 2px solid orange;
+    }
+    .menu{
+        padding-top:10px ;
+        border:none;
+        box-shadow: 0 0 0px;
+        text-align: center;
+        background-color: gray;
+        height: 50vh;
+        width: 300px;
+
+    }
+    .img{
+        width: 400px;
+        height: 50px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 5px;
+        
+    }
+    .burguer{
+        display: block;
+        color: white;
+        font-size: 1.4em;
+        padding: 25px;
+        padding-left: 5px;
+        margin-left: 25px;
+        float: left;
+    }
+}
