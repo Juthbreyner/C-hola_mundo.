@@ -3,23 +3,28 @@
     padding: 0;
 }
 .elmenu{
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
+    width:100%;
 }
 .menu{
-    width: 90%;
+    width:90%;
     display: block;
     margin: 0 auto;
-    
+    background-color: brown;
     height: 60px;
     text-align: right;
     list-style: none;
     box-shadow: 0 0 10px black;
 }
+.burguer{
+    display: none;
+    float: left;
+}
 .img{
-    width: 500px;
+    width: 250px;
     height: 50px;
     float: left;
-    margin-left: 10px;
+    margin-left: 70px;
     margin-top: 5px;
 }
 .item-menu{
@@ -38,25 +43,12 @@
     border-bottom: 1px solid orangered;
     color: orange;
 }
-.box-1{
-    background-color: yellow;
-    width: 300px;
-    height: 300px;
-    margin-left: 65px;
-}
+
 /*Esto es para la medida de un celular*/
-@media only screen and (max-width:769px){
-    .box-1{
-        background-color: orangered;
-        width: 500px;
-        height: 401px;
-    }
-    
-}
 @media only screen and (max-width: 800px){
     .elmenu{
-        background-color: blue  ;
-
+        background-color: rgb(0, 0, 0)  ;
+        height: 70px;
     }
     .item-menu{
         color:rgb(218, 203, 203);
@@ -68,31 +60,34 @@
     .item-menu:hover{
         border-bottom: 2px solid orange;
     }
-    .menu{
-        padding-top:10px ;
+    .menu-media-hidden{
+        display: none;
+    }
+    .menu-media-visible{
+        padding-top:5px ;
+        padding-bottom: 15px ;
         border:none;
         box-shadow: 0 0 0px;
         text-align: center;
         background-color: gray;
         height: 50vh;
         width: 300px;
-
+        clear: both;
     }
     .img{
-        width: 400px;
+        width: 50%;
         height: 50px;
-        float: left;
+        float: none;
         margin-left: 10px;
-        margin-top: 5px;
-        
+        margin-top: 10px;
+        float: right;
     }
-    .burguer{
+    .burguer{   
         display: block;
         color: white;
         font-size: 1.4em;
-        padding: 25px;
+        padding: 20px;
         padding-left: 5px;
         margin-left: 25px;
-        float: left;
     }
 }
