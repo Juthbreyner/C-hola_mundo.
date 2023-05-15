@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px
+}
+.mayor{
+    width: 60%;
+    height: 800px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    flex-direction: row;
+    display:flex ;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 28px;
+    text-align: center;
+    box-shadow: 0 0 10px;
+}
+.barras{
+    width: 100px;
+    margin: 10px;
+    box-shadow: 10px 0px 10px;
+    border-bottom: 4px solid black;
+}
+.barra1{
+    height: 100px;
+    background-image: linear-gradient(5deg, #ffe677 0, #ffea71 5.56%, #ffec6b 11.11%, #f4ee68 16.67%, #dfef66 22.22%, #c8ef66 27.78%, #afee68 33.33%, #92ec6c 38.89%, #6ee972 44.44%, #39e579 50%, #00e182 55.56%, #00dc8e 61.11%, #00d89c 66.67%, #00d4ac 72.22%, #00d1bd 77.78%, #00cdce 83.33%, #00cae0 88.89%, #00c7f2 94.44%, #00c4ff 100%);
+}
+.barra2{
+    height: 200px;
+    background-image: linear-gradient(5deg, #c6c86c 0, #cdc162 7.14%, #d3b859 14.29%, #d9ae51 21.43%, #dda349 28.57%, #e19742 35.71%, #e3893d 42.86%, #e57a39 50%, #e66938 57.14%, #e7583b 64.29%, #e74641 71.43%, #e63248 78.57%, #e51952 85.71%, #e2005d 92.86%, #de0069 100%);
+}
+.barra3{
+    height: 300px;
+    background-image: linear-gradient(5deg, #c090f2 0, #9576ea 25%, #585ee2 50%, #004ada 75%, #003dd3 100%);
+}
+.barra4{
+    height: 400px;
+    background-image: linear-gradient(5deg, #a0c5df 0, #6da9d4 25%, #208dc9 50%, #0071be 75%, #0058b3 100%);
+}
+.barra5{
+    height: 500px;
+
+    background-image: linear-gradient(5deg, #d1e7b1 0, #c4e6af 7.14%, #b4e3af 14.29%, #a2e0ae 21.43%, #8ddbae 28.57%, #75d6af 35.71%, #56d0b0 42.86%, #20c9b2 50%, #00c2b6 57.14%, #00bbbb 64.29%, #00b4c2 71.43%, #00aeca 78.57%, #00a8d2 85.71%, #00a3da 92.86%, #009de1 100%);
+}
+.barra6{
+    height: 600px;
+    background-image: linear-gradient(5deg, #fff38c 0, #ffe975 12.5%, #fcdf5c 25%, #e1d442 37.5%, #c4c920 50%, #a5be00 62.5%, #84b400 75%, #60aa00 87.5%, #33a100 100%);
+}
+.barra7{
+    height: 700px;
+    background-image: linear-gradient(5deg, #afbf68 0, #b5b85d 7.14%, #bab052 14.29%, #bea747 21.43%, #c29d3c 28.57%, #c59232 35.71%, #c78528 42.86%, #c97720 50%, #ca681b 57.14%, #cc581b 64.29%, #cd481f 71.43%, #ce3526 78.57%, #ce1d2d 85.71%, #ce0036 92.86%, #cd0041 100%);
+}
